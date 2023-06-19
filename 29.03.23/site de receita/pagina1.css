@@ -1,0 +1,19 @@
+body{
+    background-color: lightsalmon;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.texto{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    border: solid 3px;
+}

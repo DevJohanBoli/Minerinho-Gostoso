@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form>
+        <label for="cNome">Nome</label>
+        <input type="text" id="cNome" required>
+        <br><br>
+        <input type="submit" value="mostrar">
+        <br>
+        <input type="radio">
+        <label for="cNome">cidade</label> <br>
+        <input type="radio">
+        <label for="">Interior</label> <br>
+
+        <p>Qual é o seu meio de tranporte</p>
+
+        <input type="checkbox">
+        <label for="">Bicicleta</label>
+
+        <p>Selecione o seu time:</p>
+            <select name="" id="">
+                <option value="Palmeiras">Palmeiras</option>
+                <option value="Corinthias">Corinthias</option>
+                <option value="Santos">Santos</option>
+                <option value="Vasco">Vasco</option>
+                <option value="Sem time"></option>
+            </select>
+
+        <p>Escolha sua cidade</p>
+            <label for="">Cidade</label>
+                <input autocomplete="on" list="cidade" placeholder="Sua cidade">
+                <datalist id="Cidade">
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Bahia">Bahia</option>
+                    <option value="Minas Gerais">Minas Gerais</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                </datalist>
+                <br><br> 0 <input type="range"> 100 <br><br>
+                <p>Sugestões, Elogios e Críticas</p>
+
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="Encaminhar">
+    </form>
+</body>
+</html>
