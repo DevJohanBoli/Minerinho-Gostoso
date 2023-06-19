@@ -1,0 +1,15 @@
+table{
+    border: none; /*bordas*/
+    width: 500px; 
+    height: 550px;
+    
+}
+
+td{
+    border: 10px solid #000000;
+    background-color: #5d9d9d;
+    border-radius: 10px;
+    border-style: ridge;
+}
+
+

@@ -1,0 +1,20 @@
+table, th, td{
+    text-align: center;
+    width: 1000px;
+    background-color: rgb(36, 31, 31);
+    color: white;
+    border-collapse: collapse;
+
+}
+.palavras_esq{
+    text-align: left;
+    padding-right: 400px;
+    color: rgb(148, 147, 147);
+}
+
+.numeros{
+    color: rgb(148, 147, 147);
+}
+td{
+    border-bottom: 1px solid rgb(68, 68, 68);
+}
