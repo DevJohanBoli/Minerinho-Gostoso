@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'SIMPLIFICA';
+    src: url(../fontes/SIMPLIFICA\ Typeface.ttf);
+}
+
+:root{
+    --cinzaescuro--:#1f1d1b;
+    --violeta--:#5E17EB;
+    --roxoescuro--:#3b0d96;
+    --roxoclaro--:#8F5FEE;
+    --roxo--:#A100B8;
+}
+
+body{
+    font-family: 'SIMPLIFICA';
+}
+
+header{
+    width: 100%;
+    background-color: #cccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border-bottom: 3px solid var(--violeta--);
+    flex-direction: column;
+}
+
+.img_header{
+    width: 100px;
+    border: 1px solid;
+}
+
+.links_nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 3px solid var(--violeta--);
+    white-space: nowrap;
+}
+
+.links{
+    width: 40%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+li + li{
+    border-left: 1px solid var(--cinzaescuro--);
+}
+
+li > a{
+    padding: 10px 30px;
+    color: #1f1d1b;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
