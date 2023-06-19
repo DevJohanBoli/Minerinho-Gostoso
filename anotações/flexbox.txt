@@ -1,0 +1,24 @@
+display: flex;
+
+Faz os elementos ficarem na mesma linha
+
+flex-direction
+
+Define se os elementos vão ficar em linha ou em coluna
+
+justify-content
+
+Muda a direção dos elementos horizontalmente
+
+flex-wrap
+
+Faz com que os tamanhos dos elementos permaneçam independente do tamanho da tela
+
+align-itens
+
+Muda a direção dos elementos verticalmente
+
+@media
+
+define aparelhos diferentes para deixar o site responsivo
+

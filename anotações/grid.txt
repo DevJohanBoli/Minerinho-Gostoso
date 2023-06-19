@@ -1,0 +1,1 @@
+CSS Grid Layout é uma especificação projetada para proporcionar um método bidimensional para a criação de layout CSS que oferece a possibilidade de "layouta" itens da página com o uso de linhas e colunas.08:57 03/05/2023
