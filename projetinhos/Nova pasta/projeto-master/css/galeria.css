@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Configurando logo-tipo*/
+.logo-tipo{
+    width: 12%;
+    margin-left: 40px;
+}
+
+.logo-tipo img{
+    margin: 20px;
+    height: auto;
+    width: 40%;    
+}

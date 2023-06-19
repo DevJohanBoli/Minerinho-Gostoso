@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.butao{
+    border: 1px solid #CCC;
+    background-color: purple;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+.butao:hover{
+    border-radius: 5px;
+    background-color: rgb(173, 5, 173);
+}
